@@ -16,8 +16,16 @@
     <div class="filters">
       <input type="date" id="startDate" />
       <input type="date" id="endDate" />
-      <button>Get Space Images</button>
+      <button id="getImagesButton" type="button">Get Space Images</button>
     </div>
+
+    <section class="random-fact-section">
+      <h2>Random Space Fact</h2>
+      <div id="randomFactCard" class="random-fact-card">
+        <p id="randomFactText">Loading a random NASA fact...</p>
+        <p id="randomFactMeta" class="random-fact-meta"></p>
+      </div>
+    </section>
 
     <div id="gallery" class="gallery">
       <div class="placeholder">
